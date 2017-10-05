@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+	<title>Setting Up OSX Time Machine Over NFS</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+   </head>
+</head>
+<body>
+	<div class="container">
+		<h2 class="display-5">Setting Up OSX Time Machine Over NFS</h2>
+		<p>The issue addressed by this document is that you need a backup device for your Mac that is not an external device or any other type but an NFS device. In other words, you want to use a particular folder in a Linux server as a backup location for your Mac files. This is made possible by using an NFS service available only on Linux or any Unix-like platforms.</p>
+		<p>Make sure that there is no username in the NFS server that matches that in your Mac.</p>
+		<p>This guide covers Debian-based server (version 8 [jessie]) and Mac (version 10.12.6).</p> 
+		<p>On the Linux server:
+			<ol>
+				<li>There must be NFS service installed. Otherwise, do this: <pre>sudo apt-get install nfs-kernel-server</pre></li>
+				<li>Make sure that ports used by NFS are allowed by the server's firewall.</li>
+				<li>Create a user account similar to that on your Mac: <pre>sudo useradd -m -u 501 &lt;mac-username&gt;</pre></li>
+				<li>Log in as the user just created. Create a directory where backup of your Mac will be placed:<pre>mkdir &lt;backup folder name&gt;</pre></li>
+				<li>Log out as the user just created.</li>
+				<li>Add this in the file /etc/exports:<pre>/home/mac-username/
+			</ol>
+		</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+rsync --recursive --verbose -p -L -t Google\ Drive dbcalmada@dalisay.upm.edu.ph://home/dbcalmada/MacAirFiles/Files/
+rsync --recursive --verbose -p -L -t Desktop dbcalmada@dalisay.upm.edu.ph://home/dbcalmada/MacAirFiles/Files/
+rsync --recursive --verbose -p -L -t Documents dbcalmada@dalisay.upm.edu.ph://home/dbcalmada/MacAirFiles/Files/
+rsync --recursive --verbose -p -L -t Org dbcalmada@dalisay.upm.edu.ph://home/dbcalmada/MacAirFiles/Files/
+rsync --recursive --verbose -p -L -t Pictures dbcalmada@dalisay.upm.edu.ph://home/dbcalmada/MacAirFiles/Files/

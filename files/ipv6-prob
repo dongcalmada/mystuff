@@ -1,0 +1,9 @@
+This I got when trying to ping6 www.upm.edu.ph from Pau's machine:
+
+trainingadmin@trainingadmin-ims:~$ ping6 www.upm.edu.ph
+PING www.upm.edu.ph(habagat.upm.edu.ph.0.0.3.0.0.0.0.b.0.0.4.2.ip6.arpa) 56 data bytes
+From habagat.upm.edu.ph.0.0.3.0.0.0.0.b.0.0.4.2.ip6.arpa icmp_seq=3 Destination unreachable: Address unreachable
+From habagat.upm.edu.ph.0.0.3.0.0.0.0.b.0.0.4.2.ip6.arpa icmp_seq=7 Destination unreachable: Address unreachable
+From habagat.upm.edu.ph.0.0.3.0.0.0.0.b.0.0.4.2.ip6.arpa icmp_seq=11 Destination unreachable: Address unreachable
+From habagat.upm.edu.ph.0.0.3.0.0.0.0.b.0.0.4.2.ip6.arpa icmp_seq=15 Destination unreachable: Address unreachable
+

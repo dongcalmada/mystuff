@@ -1,0 +1,13 @@
+Sep 27 22:06:02 silangan slapd[1524]: conn=1000 op=960723 SRCH base="dc=upm,dc=edu,dc=ph" scope=2 deref=0 filter="(uid=dbcalmada)"
+Sep 27 22:06:02 silangan slapd[1524]: conn=1000 op=960723 SRCH attr=framedIPAddress msRADIUSFRAMEDIPAddress cn pwdLastSet userAccountControl msDS-MaximumPasswordAge passwordAllowChange passwordExpirationTime passwordExpirationInterval
+Sep 27 22:06:02 silangan slapd[1524]: conn=1000 op=960723 SEARCH RESULT tag=101 err=0 nentries=3 text=
+Sep 27 22:06:02 silangan slapd[1524]: conn=1000 op=960724 BIND anonymous mech=implicit ssf=0
+Sep 27 22:06:02 silangan slapd[1524]: conn=1000 op=960724 BIND dn="uid=dbcalmada,ou=people,dc=upm,dc=edu,dc=ph" method=128
+Sep 27 22:06:02 silangan slapd[1524]: conn=1000 op=960724 BIND dn="uid=dbcalmada,ou=people,dc=upm,dc=edu,dc=ph" mech=SIMPLE ssf=0
+Sep 27 22:06:02 silangan slapd[1524]: conn=1000 op=960724 RESULT tag=97 err=0 text=
+Sep 27 22:06:02 silangan slapd[1524]: conn=1000 op=960725 BIND anonymous mech=implicit ssf=0
+Sep 27 22:06:02 silangan slapd[1524]: conn=1000 op=960725 BIND dn="cn=admin,dc=upm,dc=edu,dc=ph" method=128
+Sep 27 22:06:02 silangan slapd[1524]: conn=1000 op=960725 BIND dn="cn=admin,dc=upm,dc=edu,dc=ph" mech=SIMPLE ssf=0
+Sep 27 22:06:02 silangan slapd[1524]: conn=1000 op=960725 RESULT tag=97 err=0 text=
+
+
